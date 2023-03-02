@@ -1,2 +1,2 @@
-# xpomodoro
+# xomodoro
 my pomodoro timer
