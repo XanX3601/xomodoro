@@ -8,10 +8,11 @@ setup(
     author_email="thomas.petiteau@outlook.com",
     url="https://github.com/XanX3601/xomodoro",
     packages=find_packages(),
-    entry_points={
-        "console_scripts": ["xomodoro=xomodoro.main:main"]
-    },
+    include_package_data=True,
+    entry_points={"console_scripts": ["xomodoro=xomodoro.main:main"]},
     install_requires=[
-        "rich_click==1.6.1"
-    ]
+        "importlib_resources==5.12.0",
+        "notify-py==0.3.42",
+        "rich_click==1.6.1",
+    ],
 )
