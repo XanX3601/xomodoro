@@ -1,1 +1,3 @@
-include ./xomodoro/resources/*
+include xomodoro/resources/alert_default.wav
+include xomodoro/resources/alert_success.wav
+include xomodoro/resources/icon.ico
